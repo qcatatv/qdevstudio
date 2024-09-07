@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/b4b7282228.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QDevStudio</title>
+    <link rel="stylesheet" href="/assets/css/contact-style.css">
+</head>
+
+<body>
+    <div id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav id="sidebar" class="hidden">
+        <div class="logo">qDevStudio</div>
+        <ul>
+            <li><button class="bt-navigation">
+                <a href="/index.html">Home</a>
+            </button></li>
+            <!--<li><button class="bt-navigation">
+                <a href="./assets/navigation/about.html">About</a>
+            </button></li>-->
+            <!--<li><button class="bt-navigation">
+                <a href="./assets/navigation/portfolio.html">Portfolio</a>
+            </button></li>-->
+            <li><button class="bt-navigation">
+                <a href="/services.html">Services</a>
+            </button></li>
+            <!--<li><button class="bt-navigation">
+                <a href="./assets/navigation/blog.html">Blog</a>
+            </button></li>-->
+            <li><button class="bt-navigation">
+                <a href="/contact.html">Contact</a>
+            </button></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="contact">
+            <h2 class="contact-text">Contact Us</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type="hidden" name="access_key" value="0f71ad41-4514-487b-92f4-e1e2baa5ed53">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer">
+        <div class="row">
+        <a target="_blank" href="https://github.com/qcatatv"><i class="fa-brands fa-github"></i></i></a>
+        <a target="_blank" href="https://www.instagram.com/qdevstudio/"><i class="fa-brands fa-instagram"></i></a>
+        <a target="_blank" href="https://www.youtube.com/@qDevStudio"><i class="fa-brands fa-youtube"></i></a>
+        <a target="_blank" href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a target="_blank" href="https://www.twitch.tv/qcatadev">Livestream</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+            © 2024 QDevStudio. All Rights Reserved.
+        </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/scripts.js"></script>
+</body>
+
+</html>
