@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4b7282228.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qDevStudio</title>
+    <link rel="stylesheet" href="/assets/css/services-style.css">
+</head>
+
+<body>
+    <div id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav id="sidebar" class="hidden">
+        <div class="logo">qDevStudio</div>
+        <ul>
+            <li><button class="bt-navigation">
+                <a href="/index.html">Home</a>
+            </button></li>
+            <!--<li><button class="bt-navigation">
+                <a href="./assets/navigation/about.html">About</a>
+            </button></li>-->
+            <!--<li><button class="bt-navigation">
+                <a href="./assets/navigation/portfolio.html">Portfolio</a>
+            </button></li>-->
+            <li><button class="bt-navigation">
+                <a href="./assets/navigation/services.html">Services</a>
+            </button></li>
+            <!--<li><button class="bt-navigation">
+                <a href="./assets/navigation/blog.html">Blog</a>
+            </button></li>-->
+            <li><button class="bt-navigation">
+                <a href="/assets/navigation/contact.html">Contact</a>
+            </button></li>
+        </ul>
+    </nav>
+
+    <!--Header section-->
+    
+    <div class="container">
+        <header>
+            <section class="header-site">
+                <h1 class="wl-text">An agile team ready to<br>build your next product.</h1>
+            </section>
+
+        </header>
+
+        <section class="services">
+            <h2 class="sv-text">Cut the Crap: Here’s <br>What We Do</h2>
+            <p class="sv-desc">We simplify the digital experience, blending intelligent strategies with practical technology to create websites, apps, and digital products that truly stand out. With us at the helm, diving into the digital world is effortless. <br>Our method is clear-cut: we fuse innovative ideas with the right tools to design digital solutions that align with your objectives. We focus on delivering exactly what you need, customizing each solution to fit your goals perfectly. Our mission is to make the process easy, providing digital solutions that go beyond your expectations without any unnecessary complications.</p>
+          </section>
+
+          <!--Pricing plan-->
+
+          <div class="pricing-container">
+            <div class="header">
+                <h1>Support Services</h1>
+                <p>Receive unlimited credits when you pay yearly, and save on your plan.</p>
+                <div class="toggle">
+                    <button id="monthly-btn" onclick="switchPlan('monthly')">Monthly</button>
+                    <button id="annual-btn" class="active" onclick="switchPlan('annual')">Annual <span>Save 35%</span></button>
+                </div>
+            </div>
+    
+            <div class="plans">
+                <div class="plan free">
+                    <h2 id="free-title">Free</h2>
+                    <p class="price"><span class="price-value" id="free-price">$0</span> <span id="free-billing-period">Per user/month, billed annually</span></p>
+                    <p id="free-description">For your hobby projects</p>
+                    <ul id="free-features">
+                        <li>Free e-mail alerts</li>
+                        <li>3-minute checks</li>
+                        <li>Automatic data enrichment</li>
+                        <li>10 monitors</li>
+                        <li>Up to 3 seats</li>
+                    </ul>
+                    <button>Get started for free</button>
+                </div>
+    
+                <div class="plan pro popular">
+                    <h2 id="pro-title">Pro <span>🔥 Popular</span></h2>
+                    <p class="price"><span class="price-value" id="pro-price">$85</span> <span id="pro-billing-period">Per user/month, billed annually</span></p>
+                    <p id="pro-description">Great for small businesses</p>
+                    <ul id="pro-features">
+                        <li>Unlimited phone calls</li>
+                        <li>30 second checks</li>
+                        <li>Single-user account</li>
+                        <li>20 monitors</li>
+                        <li>Up to 6 seats</li>
+                    </ul>
+                    <button>Get started with Pro</button>
+                </div>
+    
+                <div class="plan enterprise">
+                    <h2 id="enterprise-title">Enterprise</h2>
+                    <p class="price"><span class="price-value" id="enterprise-price">Custom</span> <span id="enterprise-billing-period">Per user/month, billed annually</span></p>
+                    <p id="enterprise-description">For multiple teams</p>
+                    <ul id="enterprise-features">
+                        <li>Everything in Pro</li>
+                        <li>Up to 5 team members</li>
+                        <li>100 monitors</li>
+                        <li>15 status pages</li>
+                        <li>200+ integrations</li>
+                    </ul>
+                    <button>Get started Enterprise</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Project presentation-->
+
+          <div class="project-section">
+            <h2 class="section-title">Explore 1,500+ five-star projects</h2>
+            <div class="project-grid">
+                <div class="project-item" style="background-image: url('/assets/image/qcatadev.png');">
+                    <div class="overlay">
+                        <h3>Bitdefender Elevates its Customer Support Platform</h3>
+                        <p>Restructuring and optimization of the support platform for a cybersecurity software</p>
+                        <a href="#" class="btn">See Full Case Study</a>
+                    </div>
+                </div>
+                <div class="project-item" style="background-image: url('/assets/image/qcatadev.png');">
+                    <div class="overlay">
+                        <h3>Risk and Resilience Hub</h3>
+                        <a href="#" class="btn">See Full Case Study</a>
+                    </div>
+                </div>
+                <div class="project-item" style="background-image: url('/assets/image/qcatadev.png');">
+                    <div class="overlay">
+                        <h3>eRecruiter</h3>
+                        <a href="#" class="btn">See Full Case Study</a>
+                    </div>
+                </div>
+                <div class="project-item" style="background-image: url('/assets/image/qcatadev.png');">
+                    <div class="overlay">
+                        <h3>Melody Nest</h3>
+                        <a href="#" class="btn">See Full Case Study</a>
+                    </div>
+                </div>
+                <div class="project-item" style="background-image: url('/assets/image/qcatadev.png');">
+                    <div class="overlay">
+                        <h3>Breeze</h3>
+                        <a href="#" class="btn">See Full Case Study</a>
+                    </div>
+                </div>
+                <div class="project-item" style="background-image: url('/assets/image/qcatadev.png');">
+                    <div class="overlay">
+                        <h3>BuyByeSupply</h3>
+                        <p>Reduce waste, improve profit</p>
+                        <a href="#" class="btn">See Full Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Goal section-->
+
+        <div class="goals-section">
+            <h2 class="section-title">What are your goals?</h2>
+            <p class="section-subtitle">
+                From driving quality traffic to your website, engaging users on your site, converting browsers, or increasing customer retention, our web development service is custom-made to fit your business.
+            </p>
+            <div class="goals-grid">
+                <div class="goal-item">
+                    <div class="goal-icon">
+                        <img src="path-to-icon1.png" alt="Full SME Support">
+                    </div>
+                    <h3>Full SME Support</h3>
+                    <p>Get step-by-step guidance and WordPress services for your small to medium enterprise.</p>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-icon">
+                        <img src="path-to-icon2.png" alt="E-Commerce">
+                    </div>
+                    <h3>E-Commerce</h3>
+                    <p>Let’s give your customers an easy and seamless experience that boosts sales.</p>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-icon">
+                        <img src="path-to-icon3.png" alt="Plug-in Development">
+                    </div>
+                    <h3>Plug-in Development</h3>
+                    <p>Upgrade your WordPress ecosystem by adding new, flawless functionality.</p>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-icon">
+                        <img src="path-to-icon4.png" alt="WordPress Migration">
+                    </div>
+                    <h3>WordPress Migration</h3>
+                    <p>Smoothly transition your assets to WordPress without missing a beat.</p>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-icon">
+                        <img src="path-to-icon5.png" alt="API Integration">
+                    </div>
+                    <h3>API Integration</h3>
+                    <p>Need to add something new? Connect to MarTech, 3rd party tools, software, and more.</p>
+                </div>
+                <div class="goal-item cta">
+                    <h3>Ready to get started?</h3>
+                    <a href="#" class="btn-get-started">Get Started</a>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <!--Footer-->
+
+  <footer>
+    <div class="footer">
+    <div class="row">
+    <a target="_blank" href="#"><i class="fa-brands fa-github"></i></i></a>
+    <a target="_blank" href="https://www.instagram.com/qdevstudio/"><i class="fa-brands fa-instagram"></i></a>
+    <a target="_blank" href="https://www.youtube.com/@qDevStudio"><i class="fa-brands fa-youtube"></i></a>
+    <a target="_blank" href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    
+    <div class="row">
+    <ul>
+    <li><a href="/assets/navigation/contact.html">Contact us</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a target="_blank" href="https://www.twitch.tv/qcatadev">Livestream</a></li>
+    <li><a id="openModalBtn" href="#">Terms & Conditions</a></li>
+    <li><a href="#">Career</a></li>
+    </ul>
+    </div>
+    
+    <div class="row">
+        © 2024 QDevStudio. All Rights Reserved.
+    </div>
+    </div>
+</footer>
+
+  <script src="/assets/js/scripts.js"></script>
+</body>
+
+</html>

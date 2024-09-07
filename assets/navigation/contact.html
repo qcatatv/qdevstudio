@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4b7282228.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QDevStudio</title>
@@ -19,25 +20,32 @@
     </div>
 
     <nav id="sidebar" class="hidden">
-        <div class="logo">QDevStudio</div>
+        <div class="logo">qDevStudio</div>
         <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="./assets/navigation/about.html">About</a></li>
-            <li><a href="./assets/navigation/services.html">Services</a></li>
-            <li><a href="./assets/navigation/portfolio.html">Portfolio</a></li>
-            <li><a href="./assets/navigation/blog.html">Blog</a></li>
-            <li><a href="./assets/navigation/contact.html">Contact</a></li>
+            <li><button class="bt-navigation">
+                <a href="/index.html">Home</a>
+            </button></li>
+            <!--<li><button class="bt-navigation">
+                <a href="./assets/navigation/about.html">About</a>
+            </button></li>-->
+            <!--<li><button class="bt-navigation">
+                <a href="./assets/navigation/portfolio.html">Portfolio</a>
+            </button></li>-->
+            <li><button class="bt-navigation">
+                <a href="/assets/navigation/services.html">Services</a>
+            </button></li>
+            <!--<li><button class="bt-navigation">
+                <a href="./assets/navigation/blog.html">Blog</a>
+            </button></li>-->
+            <li><button class="bt-navigation">
+                <a href="./assets/navigation/contact.html">Contact</a>
+            </button></li>
         </ul>
     </nav>
 
     <div class="container">
-        <section class="about">
-            <h2 class="ab-text">About Us</h2>
-            <p class="ab-desc">QDevStudio is a team of passionate developers and designers dedicated to bringing your ideas to life.</p>
-        </section>
-
         <section class="contact">
-            <h2>Contact Us</h2>
+            <h2 class="contact-text">Contact Us</h2>
             <form class="contact-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -54,7 +62,28 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 QDevStudio. All Rights Reserved.</p>
+        <div class="footer">
+        <div class="row">
+        <a href="#"><i class="fa-brands fa-github"></i></i></a>
+        <a href="https://www.instagram.com/qdevstudio/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@qDevStudio"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="/assets/navigation/contact.html">Contact us</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Livestream</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Career</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+            © 2024 QDevStudio. All Rights Reserved.
+        </div>
+        </div>
     </footer>
 
     <script src="/assets/js/scripts.js"></script>

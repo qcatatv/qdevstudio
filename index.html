@@ -25,36 +25,39 @@
             <li><button class="bt-navigation">
                 <a href="./index.html">Home</a>
             </button></li>
-            <li><button class="bt-navigation">
+            <!--<li><button class="bt-navigation">
                 <a href="./assets/navigation/about.html">About</a>
-            </button></li>
-            <li><button class="bt-navigation">
+            </button></li>-->
+            <!--<li><button class="bt-navigation">
                 <a href="./assets/navigation/portfolio.html">Portfolio</a>
-            </button></li>
+            </button></li>-->
             <li><button class="bt-navigation">
                 <a href="./assets/navigation/services.html">Services</a>
             </button></li>
-            <li><button class="bt-navigation">
+            <!--<li><button class="bt-navigation">
                 <a href="./assets/navigation/blog.html">Blog</a>
-            </button></li>
+            </button></li>-->
             <li><button class="bt-navigation">
                 <a href="./assets/navigation/contact.html">Contact</a>
             </button></li>
         </ul>
     </nav>
-
+    
     <div class="container">
         <header>
-            <h1 class="wl-text">An agile team ready to<br>build your next product.</h1>
-            <h2 class="wl-second">On‑Time. On‑Budget. On‑Point.</h2>
-            <div class="book-main-call">
-                <button class="learn-more">
-                    <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                    </span>
-                    <span class="button-text"><a href="https://cal.com/qdevstudio">Book Call</a></span>
-                  </button>
-            </div>
+            <section class="header-site">
+                <h1 class="wl-text">An agile team ready to<br>build your next product.</h1>
+                <h2 class="wl-second">On‑Time. On‑Budget. On‑Point.</h2>
+                <div class="book-main-call">
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text"><a href="https://cal.com/qdevstudio">Book Call</a></span>
+                      </button>
+                </div>
+            </section>
+
         </header>
 
         <section class="about">
@@ -110,6 +113,7 @@
 
         <section class="portfolio">
             <h2 class="p-text">Our Portfolio</h2>
+            <h3 class="p-desc">A small part of all our projects</h5>
         </section>
 
         <section class="slideshow">
@@ -117,19 +121,19 @@
 
                 <div class="mySlides ">
                 <div class="numbertext">1 / 3</div>
-                <a href="https://portfolio-five-lyart-23.vercel.app/"><img class="img-slide" src="/assets/image/qcatadev.png" style="width:100%"></a>
+                <a target=”_blank” href="https://portfolio-five-lyart-23.vercel.app/"><img class="img-slide" src="/assets/image/qcatadev.png" style="width:100%"></a>
                 <div class="text">qCataDev Portfolio</div>
                 </div>
             
                 <div class="mySlides ">
                 <div class="numbertext">2 / 3</div>
-                <img class="img-slide" src="/assets/image/qcatadev.png" style="width:100%">
+                <a target=”_blank”><img class="img-slide" src="/assets/image/qcatadev.png" style="width:100%"></a>
                 <div class="text">Caption Two</div>
                 </div>
             
                 <div class="mySlides ">
                 <div class="numbertext">3 / 3</div>
-                <img class="img-slide" src="/assets/image/qcatadev.png" style="width:100%">
+                <a target=”_blank”><img class="img-slide" src="/assets/image/qcatadev.png" style="width:100%"></a>
                 <div class="text">Caption Three</div>
                 </div>
             
@@ -144,27 +148,32 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </section>
-
-      <section class="contact">
-          <h2>Contact Us</h2>
-          <form class="contact-form">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required>
-
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-
-              <label for="message">Message:</label>
-              <textarea id="message" name="message" rows="5" required></textarea>
-
-              <button type="submit">Send Message</button>
-          </form>
-      </section>
   </div>
 
   <footer>
-      <p class="footer-text">&copy; 2024 QDevStudio. All Rights Reserved.</p>
-  </footer>
+    <div class="footer">
+    <div class="row">
+    <a href="#"><i class="fa-brands fa-github"></i></i></a>
+    <a href="https://www.instagram.com/qdevstudio/"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.youtube.com/@qDevStudio"><i class="fa-brands fa-youtube"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    
+    <div class="row">
+    <ul>
+    <li><a href="/assets/navigation/contact.html">Contact us</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="https://www.twitch.tv/qcatadev">Livestream</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+    <li><a href="#">Career</a></li>
+    </ul>
+    </div>
+    
+    <div class="row">
+        © 2024 QDevStudio. All Rights Reserved.
+    </div>
+    </div>
+</footer>
 
   <script src="/assets/js/scripts.js"></script>
 </body>
