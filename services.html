@@ -46,7 +46,15 @@
     <!--Header section-->
     
     <div class="container">
-        <button><a href="#" class="cta-button">CERE O OFERTA →</a></button>
+        <div class="popup" id="popup-1">
+            <div class="overlay-popup"></div>
+                <div class="content-popup">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat in laudantium voluptatibus mollitia, alias laboriosam itaque animi cum nesciunt eos repellat quod dolore doloribus ab quam molestias blanditiis dolores suscipit.</p>
+                </div>
+            </div>
+            <button onclick="togglePopup()"><a href="#" class="offer-button">Ask for the offer →</a></button>
         <header>
             <section class="header-site">
                 <h1 class="wl-text">An agile team ready to<br>build your next product.</h1>
@@ -226,7 +234,7 @@
     
     <div class="row">
     <ul>
-    <li><a href="contact.html">Contact us</a></li>
+    <li><a href="./contact.html">Contact us</a></li>
     <li><a href="#">Portfolio</a></li>
     <li><a target="_blank" href="https://www.twitch.tv/qcatadev">Livestream</a></li>
     </ul>
